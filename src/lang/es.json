@@ -1,0 +1,7 @@
+{
+  "link.home": "Inicio",
+  "link.post": "Posteos",
+  "title.custom": "Título {name}",
+  "page.title": "Título por defecto!",
+  "linkemail": "By: <a href=\"mailto:{email}\" target=\"_blank\">{name}</a>"
+}

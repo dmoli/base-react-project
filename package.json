@@ -1,0 +1,41 @@
+{
+  "name": "React-redux-next",
+  "description": "Init app with React, Redux and Next",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "eslint": "eslint .",
+    "eslintfile": "eslint ./pages/post.js --fix",
+    "dev": "node server.js",
+    "build": "next build && node ./src/scripts/default-lang",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "accepts": "^1.3.3",
+    "babel-plugin-react-intl": "^2.3.1",
+    "glob": "^7.1.2",
+    "intl": "^1.2.5",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "latest",
+    "next-redux-wrapper": "^1.0.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-intl": "^2.3.0",
+    "react-redux": "^5.0.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "author": "Diego Molina <skumblue@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "enzyme": "^2.9.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.0",
+    "eslint-plugin-react": "^7.1.0",
+    "jest": "^20.0.4",
+    "react-addons-test-utils": "^15.6.0",
+    "react-test-renderer": "^15.6.1"
+  }
+}

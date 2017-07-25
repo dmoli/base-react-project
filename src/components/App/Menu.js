@@ -45,6 +45,16 @@ class Menu extends Component {
                 </a>
               </Link>
             </li>
+            <li>
+              <Link href='/rebass'>
+                <a>
+                  <FormattedMessage
+                    id='link.rebass'
+                    defaultMessage='Hi link rebass'
+                  />
+                </a>
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>

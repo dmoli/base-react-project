@@ -1,6 +1,7 @@
 {
   "link.home": "Home",
   "link.post": "Post",
+  "link.rebass": "Rebass",
   "title.custom": "Title! {name}",
   "page.title": "Title default page!",
   "linkemail": "By...: <a href=\"mailto:{email}\" target=\"_blank\">{name}</a>"

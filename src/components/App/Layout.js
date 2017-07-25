@@ -39,6 +39,10 @@ export default injectIntl(({ intl, title, children }) => (
     </footer>
 
     <style global jsx>{`
+      * { box-sizing: border-box; }
+      
+      body { margin: 0; }
+
       * {
         font-size: 15px;
       }

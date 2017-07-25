@@ -1,36 +1,84 @@
 import React, { Component } from 'react';
 import { FormattedRelative } from 'react-intl';
+import styled from 'styled-components';
 
 class Item extends Component {
   render() {
     return (
       <div>
-        <article className='juegos-item'>
+        <GameItem>
           <img
             width='305'
             height='350'
             className='juego-imagen'
             data-src='images/juegos/prueba-juego.jpg|images/juegos/prueba-juego.jpg'
           />
-          <section>
-            <p className='juego-nombre'>{this.props.title}</p>
-            <p className='juego-precio-antes'>$ {this.props.id}</p>
-            <p className='juego-precio'>$ {this.props.id}</p>
+          <GameInfoContainer>
+            <GameName>{this.props.title}</GameName>
+            <GamePrice>$ {this.props.id}</GamePrice>
+            <GamePriceAfter>$ {this.props.id}</GamePriceAfter>
             <p>
               <FormattedRelative
                 value={Date.now()}
                 updateInterval={36000}
               />
             </p>
-            <article className='juego-whatsapp'>
-              <span className='icon-whatsapp'></span>
+            <GameWsContainer>
+              <GameWsIcon className='icon-whatsapp' />
               <a href='tel:+55951098779'>+569 5109 8779</a>
-            </article>
-          </section>
-        </article>
+            </GameWsContainer>
+          </GameInfoContainer>
+        </GameItem>
       </div>
     );
   }
 }
+
+const GameItem = styled.article`
+  margin: 0px auto 30px auto;
+  display: flex;
+  background: rgb(235, 238, 241);
+`;
+
+const GameInfoContainer = styled.section`
+  flex: 1;
+  padding-top: 18px;
+  padding-left: 18px;
+  padding-bottom: 18px;
+`;
+
+const GameInfoItem = styled.p`
+  margin: 0px 0px 10px 0px;
+  font-size: 1.5rem;
+  color: #4c4c4c;
+`;
+
+const GameName = GameInfoItem.extend`
+  font-size: 2rem;
+`;
+
+const GamePrice = styled.p`
+  font-size: 1rem !important;
+  text-decoration: line-through;
+  margin: 0px 0px 3px 0px !important;
+  color: #777 !important;
+`;
+
+const GamePriceAfter = styled.p`
+  background: rgb(208, 64, 58);
+  color: #fff;
+  display: inline-block;
+  padding: 4px 7px;
+  border-radius: 4px;
+`;
+
+const GameWsContainer = styled.article`
+  margin: 16px 0px 0px 0px !important;
+`;
+
+const GameWsIcon = styled.span`
+  color: #2480ff !important;
+  margin: 0px 3px 0px 0px;
+`;
 
 export default Item;

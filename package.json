@@ -2,6 +2,9 @@
   "name": "React-redux-next",
   "description": "Init app with React, Redux and Next",
   "version": "1.0.0",
+  "jest": {
+    "notify": true
+  },
   "scripts": {
     "test": "jest",
     "eslint": "eslint .",
@@ -19,6 +22,7 @@
     "isomorphic-fetch": "^2.2.1",
     "next": "latest",
     "next-redux-wrapper": "^1.0.0",
+    "prop-types": "^15.5.10",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-intl": "^2.3.0",

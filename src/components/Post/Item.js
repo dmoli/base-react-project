@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FormattedRelative } from 'react-intl';
 import styled from 'styled-components';
+import { PropTypes } from 'prop-types';
 
 class Item extends Component {
   render() {
@@ -33,6 +34,11 @@ class Item extends Component {
     );
   }
 }
+
+Item.propTypes = {
+  id: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+};
 
 const GameItem = styled.article`
   margin: 0px auto 30px auto;

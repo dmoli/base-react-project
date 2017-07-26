@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Comment should render the component 1`] = `
+<div>
+  <article
+    className="sc-bdVaJa RRGNK"
+  >
+    <img
+      className="juego-imagen"
+      data-src="images/juegos/prueba-juego.jpg|images/juegos/prueba-juego.jpg"
+      height="350"
+      width="305"
+    />
+    <section
+      className="sc-bwzfXH cSprYj"
+    >
+      <p
+        className="sc-bxivhb ctYYYX"
+      >
+        title test
+      </p>
+      <p
+        className="sc-ifAKCX gSBTEE"
+      >
+        $ 
+        2
+      </p>
+      <p
+        className="sc-EHOje duTMBU"
+      >
+        $ 
+        2
+      </p>
+      <p>
+        <span>
+          now
+        </span>
+      </p>
+      <article
+        className="sc-bZQynM kXKxkY"
+      >
+        <span
+          className="icon-whatsapp sc-gzVnrw efexIZ"
+        />
+        <a
+          href="tel:+55951098779"
+        >
+          +569 5109 8779
+        </a>
+      </article>
+    </section>
+  </article>
+</div>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu rendered correctly 1`] = `
+<div>
+  <span
+    className="icon-menu sc-bdVaJa jFQTqy"
+    onClick={[Function]}
+  />
+  <nav
+    className="sc-bwzfXH gssRyn"
+    open={false}
+  >
+    <ul
+      className="sc-htpNat cuBxGo"
+    >
+      <li
+        className="sc-bxivhb gLOCki"
+      >
+        <a
+          className="sc-ifAKCX hOzByA"
+          onClick={[Function]}
+        >
+          <span>
+            Hi link home
+          </span>
+        </a>
+      </li>
+      <li
+        className="sc-bxivhb gLOCki"
+      >
+        <a
+          className="sc-ifAKCX hOzByA"
+          onClick={[Function]}
+        >
+          <span>
+            Hi link post
+          </span>
+        </a>
+      </li>
+      <li
+        className="sc-bxivhb gLOCki"
+      >
+        <a
+          className="sc-ifAKCX hOzByA"
+          onClick={[Function]}
+        >
+          <span>
+            Hi link rebass
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

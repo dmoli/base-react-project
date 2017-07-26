@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Comment should render the component 1`] = `
+exports[`Post item rendered correctly 1`] = `
 <div>
   <article
     className="sc-bdVaJa RRGNK"
@@ -23,13 +23,13 @@ exports[`Comment should render the component 1`] = `
         className="sc-ifAKCX gSBTEE"
       >
         $ 
-        2
+        3
       </p>
       <p
         className="sc-EHOje duTMBU"
       >
         $ 
-        2
+        3
       </p>
       <p>
         <span>

@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Menu from './Menu';
+import Layout from './Layout';
 import createComponentWithIntl from '../../scripts/helperWithIntl';
 
-test('Menu rendered correctly', () => {
-  const component = createComponentWithIntl(<Menu />);
+test('Layout rendered correctly', () => {
+  const component = createComponentWithIntl(<Layout />);
   const tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 });

@@ -24,6 +24,7 @@ class Menu extends Component {
     return (
       <div>
         <BurgerButton className='icon-menu' onClick={this.handleOpenMenu} />
+        <span className='hola' />
         <NavMenu open={this.state.open}>
           <MenuContainer>
             <MenuItem>

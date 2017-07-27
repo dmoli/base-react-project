@@ -1,10 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Menu rendered correctly 1`] = `
+exports[`<Menu /> rendered correctly 1`] = `
 <div>
   <span
     className="icon-menu sc-bdVaJa jFQTqy"
     onClick={[Function]}
+  />
+  <span
+    className="hola"
   />
   <nav
     className="sc-bwzfXH gssRyn"

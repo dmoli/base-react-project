@@ -22,6 +22,9 @@ exports[`Layout rendered correctly 1`] = `
         className="icon-menu sc-bdVaJa jFQTqy"
         onClick={[Function]}
       />
+      <span
+        className="hola"
+      />
       <nav
         className="sc-bwzfXH gssRyn"
         open={false}

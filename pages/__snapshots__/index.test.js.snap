@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page - Index rendered correctly 1`] = `
+<div
+  className="layout"
+>
+  <header
+    className="sc-EHOje jjVuSd"
+  >
+    <figure
+      className="test sc-bZQynM jVHFEX"
+    >
+      <img
+        alt="Logo Primer Player"
+        height="127"
+        src="/static/logo.png"
+        width="157"
+      />
+    </figure>
+    <div>
+      <span
+        className="icon-menu sc-bdVaJa jFQTqy"
+        onClick={[Function]}
+      />
+      <nav
+        className="sc-bwzfXH gssRyn"
+        open={false}
+      >
+        <ul
+          className="sc-htpNat cuBxGo"
+        >
+          <li
+            className="sc-bxivhb gLOCki"
+          >
+            <a
+              className="sc-ifAKCX hOzByA"
+              onClick={[Function]}
+            >
+              <span>
+                Hi link home
+              </span>
+            </a>
+          </li>
+          <li
+            className="sc-bxivhb gLOCki"
+          >
+            <a
+              className="sc-ifAKCX hOzByA"
+              onClick={[Function]}
+            >
+              <span>
+                Hi link post
+              </span>
+            </a>
+          </li>
+          <li
+            className="sc-bxivhb gLOCki"
+          >
+            <a
+              className="sc-ifAKCX hOzByA"
+              onClick={[Function]}
+            >
+              <span>
+                Hi link rebass
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div
+    className="sc-gzVnrw iFBSaR"
+  >
+    <section
+      className="sc-htoDjs kKjDSp"
+    >
+      <input
+        className="buscador sc-dnqmqq jCixQC"
+        placeholder="Busca tu juego..."
+        type="text"
+      />
+      <span
+        className="icon-search sc-iwsKbI eYhjXI"
+      />
+    </section>
+    <div>
+      <h1>
+        <span>
+          Hi for default
+        </span>
+      </h1>
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "Hi for default email",
+          }
+        }
+      />
+    </div>
+  </div>
+  <footer
+    className="sc-gZMcBi bwimHQ"
+  >
+    I\`m here to stay
+  </footer>
+</div>
+`;

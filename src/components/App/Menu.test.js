@@ -1,5 +1,4 @@
 /* eslint-env jest */
-
 import React from 'react';
 import { shallow } from 'enzyme';
 
@@ -28,5 +27,5 @@ describe('<Menu />', () => {
     // click to close
     component.find('.icon-menu').simulate('click');
     expect(component.state().open).toEqual(false);
-  })
+  });
 });

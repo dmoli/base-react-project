@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page - Rebass rendered correctly 1`] = `
+<div
+  className="layout"
+>
+  <header
+    className="sc-gFaPwZ dfFpxI"
+  >
+    <figure
+      className="test sc-fhYwyz bfvazP"
+    >
+      <img
+        alt="Logo Primer Player"
+        height="127"
+        src="/static/logo.png"
+        width="157"
+      />
+    </figure>
+    <div>
+      <span
+        className="icon-menu sc-eerKOB eufaRt"
+        onClick={[Function]}
+      />
+      <nav
+        className="sc-emmjRN kGFAsv"
+        open={false}
+      >
+        <ul
+          className="sc-cpmLhU gqGgYE"
+        >
+          <li
+            className="sc-dymIpo hWsvro"
+          >
+            <a
+              className="sc-bnXvFD jMigNI"
+              onClick={[Function]}
+            >
+              <span>
+                Hi link home
+              </span>
+            </a>
+          </li>
+          <li
+            className="sc-dymIpo hWsvro"
+          >
+            <a
+              className="sc-bnXvFD jMigNI"
+              onClick={[Function]}
+            >
+              <span>
+                Hi link post
+              </span>
+            </a>
+          </li>
+          <li
+            className="sc-dymIpo hWsvro"
+          >
+            <a
+              className="sc-bnXvFD jMigNI"
+              onClick={[Function]}
+            >
+              <span>
+                Hi link rebass
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div
+    className="sc-jzgbtB kSAbec"
+  >
+    <section
+      className="sc-gJWqzi fmKWpn"
+    >
+      <input
+        className="buscador sc-rBLzX iILUde"
+        placeholder="Busca tu juego..."
+        type="text"
+      />
+      <span
+        className="icon-search sc-bMvGRv fIINup"
+      />
+    </section>
+    <div
+      className="sc-EHOje hzBkDV"
+    >
+      <h1
+        className="sc-eNQAEJ bpjgLe sc-jKJlTe ePiGln sc-ckVGcZ fjEbAY sc-dxgOiQ jYtIvp"
+        is={null}
+      >
+        Next.js + Rebass
+      </h1>
+      <div
+        className="sc-dNLxif cTKadY sc-jbKcbu fsTWPw"
+        is={null}
+      >
+        <div
+          className="sc-dfVpRl bXEfOF sc-gxMtzJ ioESun"
+          is={null}
+        >
+          <a
+            className="sc-kgoBCf bhYCUR sc-chPdSV bTMclA"
+            href="https://github.com/zeit/next.js/"
+            is={null}
+            target="_blank"
+          >
+            Next.js
+          </a>
+          <a
+            className="sc-kgoBCf bhYCUR sc-chPdSV cwiWCk"
+            href="http://jxnblk.com/rebass/"
+            is={null}
+            target="_blank"
+          >
+            REBASS
+          </a>
+        </div>
+        <div
+          className="sc-bxivhb bUZGRr sc-htpNat iZBBQa sc-bdVaJa iHZvIS"
+          is={null}
+        >
+          <div
+            className="sc-ifAKCX cFlEyZ sc-bdVaJa goNVXm"
+            is={null}
+          >
+            <blockquote
+              className="sc-iRbamj blSEcj sc-gPEVay ghxswF sc-ckVGcZ igsOsg sc-dxgOiQ iaGhVH"
+              is={null}
+            >
+              "Next.js is a minimalistic framework for server-rendered React applications."
+            </blockquote>
+          </div>
+          <div
+            className="sc-ifAKCX cFlEyZ sc-bdVaJa goNVXm"
+            is={null}
+          >
+            <blockquote
+              className="sc-iRbamj blSEcj sc-gPEVay ghxswF sc-ckVGcZ igsOsg sc-dxgOiQ iaGhVH"
+              is={null}
+            >
+              "Functional React UI component library, built with styled-components"
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="sc-CtfFt fionp"
+  >
+    I\`m here to stay
+  </footer>
+</div>
+`;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Item from './Item';
-import { createComponentWithIntl } from '../../scripts/helperWithIntl';
+import createComponentWithIntl from '../../scripts/helperWithIntl';
 
 const item = {
   id: 3,

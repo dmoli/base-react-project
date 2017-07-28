@@ -3,7 +3,7 @@ import { shallow, mount } from 'enzyme';
 
 import List from './List';
 import Item from './Item';
-import { createComponentWithIntl } from '../../scripts/helperWithIntl';
+import createComponentWithIntl from '../../scripts/helperWithIntl';
 
 const items = [
   {

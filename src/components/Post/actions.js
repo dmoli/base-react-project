@@ -4,11 +4,11 @@ export const actionTypes = {
   SET_POST: 'SET_POST',
 };
 
-const setPost = function setPost(posts) {
-  return dispatch => dispatch({
+export const setPost = function setPost(posts) {
+  return {
     type: actionTypes.SET_POST,
     payload: posts,
-  });
+  };
 };
 
 export const nextPage = function nextPage() {

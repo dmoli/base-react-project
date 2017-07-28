@@ -13,6 +13,7 @@ export const setPost = function setPost(posts) {
 
 export const nextPage = function nextPage() {
   return async (dispatch, getState) => {
+    // try {}
     const state = getState();
     const currentPage = state.posts.page;
     const posts = await api.posts.getList(currentPage);
@@ -20,5 +21,6 @@ export const nextPage = function nextPage() {
       setPost(posts),
     );
     return posts;
+    // .catch(ex => dispatch(nextPageFailure(ex)))
   };
 };

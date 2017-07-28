@@ -1,7 +1,9 @@
 import React from 'react';
+import { shallow, mount } from 'enzyme';
 
 import List from './List';
-import createComponentWithIntl from '../../scripts/helperWithIntl';
+import Item from './Item';
+import { createComponentWithIntl } from '../../scripts/helperWithIntl';
 
 const items = [
   {
@@ -14,7 +16,9 @@ const items = [
   },
 ];
 
-test('Post list rendered correctly', () => {
-  const component = createComponentWithIntl(<List posts={items} />);
-  expect(component).toMatchSnapshot();
+describe('Post <List />', () => {
+  it('rendered correctly', () => {
+    const component = createComponentWithIntl(<List posts={items} />);
+    expect(component).toMatchSnapshot();
+  });
 });

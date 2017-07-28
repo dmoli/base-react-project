@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Layout rendered correctly 1`] = `
+exports[`<Layout /> rendered correctly 1`] = `
 <div
   className="layout"
 >
@@ -8,7 +8,7 @@ exports[`Layout rendered correctly 1`] = `
     className="sc-EHOje jjVuSd"
   >
     <figure
-      className="sc-bZQynM jVHFEX"
+      className="test sc-bZQynM jVHFEX"
     >
       <img
         alt="Logo Primer Player"
@@ -21,9 +21,6 @@ exports[`Layout rendered correctly 1`] = `
       <span
         className="icon-menu sc-bdVaJa jFQTqy"
         onClick={[Function]}
-      />
-      <span
-        className="hola"
       />
       <nav
         className="sc-bwzfXH gssRyn"

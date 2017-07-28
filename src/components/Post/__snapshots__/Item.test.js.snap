@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Post item rendered correctly 1`] = `
+exports[`Post <Item /> Post item rendered correctly 1`] = `
 <div>
   <article
     className="sc-bdVaJa RRGNK"

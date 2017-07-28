@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Post list rendered correctly 1`] = `
+exports[`Post <List /> rendered correctly 1`] = `
 <section>
   <div>
     <article

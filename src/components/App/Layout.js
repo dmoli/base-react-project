@@ -20,7 +20,7 @@ export default injectIntl(({ intl, title, children }) => (
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
     </Head>
     <Header>
-      <Logotipo>
+      <Logotipo className='test'>
         <img src="/static/logo.png"
           width="157"
           height="127"

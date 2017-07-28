@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post reducer should handle SET_POST 1`] = `
+Object {
+  "entities": Array [
+    Object {
+      "id": 1,
+      "title": "title test 1",
+    },
+    Object {
+      "id": 2,
+      "title": "title test 2",
+    },
+    Object {
+      "id": 3,
+      "title": "title test 3",
+    },
+  ],
+  "page": 2,
+}
+`;

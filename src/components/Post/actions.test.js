@@ -45,6 +45,23 @@ describe('Post actions', () => {
     });
   });
 
+  it('nextPage - fetch should response with error', () => {
+    nock('https://jsonplaceholder.typicode.com')
+      .get('/posts?_page=1')
+      .reply(404);
+
+    const expectedActions = [
+      { type: actionTypes.SHOW_ERROR },
+    ];
+
+    const store = mockStore(initialState);
+
+    return store.dispatch(nextPage()).then(() => {
+      // return of async actions
+      expect(store.getActions()).toEqual(expectedActions);
+    });
+  });
+
   it('setPost - should create an action to add posts', () => {
     const expectedAction = {
       type: actionTypes.SET_POST,

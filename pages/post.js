@@ -28,10 +28,6 @@ class Post extends React.Component {
   }
 
   render() {
-    let error = null;
-    if (this.props.error) {
-      error = <div className="error">Error</div>;
-    }
     return (
       <Layout title="Post page">
         <h1>
@@ -45,8 +41,8 @@ class Post extends React.Component {
         </h1>
         <List
           posts={this.props.posts}
+          error={this.props.error}
         />
-        {error}
         <button onClick={this.handlePagination}>Pagination</button>
       </Layout>
     );

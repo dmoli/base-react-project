@@ -1,5 +1,4 @@
 /* eslint-env jest */
-
 import React from 'react';
 import { shallow } from 'enzyme';
 
@@ -32,5 +31,12 @@ describe('Post <List />', () => {
     const component = shallow(<List posts={[]}/>);
     component.setProps({ posts: items });
     expect(component.find(Item).length).toBe(3);
+  });
+
+  it('should render without error', () => {
+    const component = shallow(<List error={true} posts={[]}/>);
+    expect(component.find('.error').length).toBe(1);
+    component.setProps({ error: false });
+    expect(component.find('.error').length).toBe(0);
   });
 });

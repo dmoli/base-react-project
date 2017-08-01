@@ -16,6 +16,7 @@ Object {
       "title": "title test 3",
     },
   ],
+  "error": false,
   "page": 2,
 }
 `;

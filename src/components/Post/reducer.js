@@ -3,6 +3,15 @@ import { combineReducers } from 'redux';
 import { actionTypes } from './actions';
 import initialState from '../../redux/state';
 
+function errorReducer(state = initialState.posts.error, action = {}) {
+  switch (action.type) {
+    case actionTypes.SHOW_ERROR:
+      return state;
+    default:
+      return state;
+  }
+}
+
 function pageReducer(state = initialState.posts.page, action = {}) {
   switch (action.type) {
     case actionTypes.SET_POST:
@@ -22,6 +31,7 @@ function entitiesReducer(state = initialState.posts.entities, action = {}) {
 }
 
 const postReducer = combineReducers({
+  error: errorReducer,
   page: pageReducer,
   entities: entitiesReducer,
 });

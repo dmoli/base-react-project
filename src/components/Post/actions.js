@@ -12,9 +12,10 @@ export const setPost = function setPost(posts) {
   };
 };
 
-const nextPageFailure = function nextPageFailure() {
+const nextPageFailure = function nextPageFailure(error) {
   return {
     type: actionTypes.SHOW_ERROR,
+    payload: error,
   };
 };
 
@@ -29,7 +30,7 @@ export const nextPage = function nextPage() {
       );
       return posts;
     } catch (e) {
-      return dispatch(nextPageFailure());
+      return dispatch(nextPageFailure(true));
     }
   };
 };

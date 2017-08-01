@@ -51,7 +51,7 @@ describe('Post actions', () => {
       .reply(404);
 
     const expectedActions = [
-      { type: actionTypes.SHOW_ERROR },
+      { type: actionTypes.SHOW_ERROR, payload: true },
     ];
 
     const store = mockStore(initialState);

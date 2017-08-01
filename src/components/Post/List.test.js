@@ -29,7 +29,8 @@ describe('Post <List />', () => {
   });
 
   it('should render 3 <Item /> components', () => {
-    const component = shallow(<List posts={items} />);
+    const component = shallow(<List posts={[]}/>);
+    component.setProps({ posts: items });
     expect(component.find(Item).length).toBe(3);
   });
 });
